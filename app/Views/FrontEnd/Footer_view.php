@@ -1,4 +1,4 @@
-<footer class="footer" style="background-color: #5f37a3; padding: 20px;">
+<footer class="footer" style="background-color: #2C3E50; padding: 20px;">
     <div class="footer-icons">
       <a href="https://www.facebook.com" target="_blank">
         <img src="assets/img/facebook.png" alt="Facebook" class="footer-icon" />

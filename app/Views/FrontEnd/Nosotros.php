@@ -1,3 +1,4 @@
+<body class="bodynosotros">
 <div class="card-group">
 <div class="card" style="width: 18rem;">
   <img src="assets/img/ortega.jpeg" class="card-img-top" alt="Avatar 1">
@@ -20,22 +21,6 @@
   </div>
 </div>
 </div>
-<style>
-    .card-group{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        gap: 20px;
-    }
-    .card-text {
-        text-align: justify;
-        text-justify: inter-word;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 18px;
-    }   
-    
-</style>
+</body>
 
   

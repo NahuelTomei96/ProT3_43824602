@@ -12,11 +12,11 @@ class Home extends BaseController
         echo view('Frontend/footer_view');
     }
 
-    public function Quienes_somos()
+    public function Nosotros()
     {
         echo view('Frontend/head_view');
         echo view('Frontend/navbar_view');
-        echo view('Frontend/quienes_somos');
+        echo view('Frontend/Nosotros');
         echo view('Frontend/footer_view');
     }
 

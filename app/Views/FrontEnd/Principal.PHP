@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Principal</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <styl>
-   
-    </style>
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="bodyprincipal">
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--Carrusel-->
-  <div class="conteiner">
+  <div class="principal_conteiner">
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -41,17 +39,5 @@
     </div>
     <!--FinCarrusel-->
 </div>
-<style>
-    .conteiner{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin: auto;
-        width: 70%;
-        height: 100%;
-        padding-bottom: 10px;
-        border-radius: 20px; 
-    }
-    
-</style>
 </body>
 </html>

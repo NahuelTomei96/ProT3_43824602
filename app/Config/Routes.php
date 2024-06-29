@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('Principal', 'Home::index');
-$routes->get('quienes_somos', 'Home::quienes_somos');
+$routes->get('Nosotros', 'Home::Nosotros');
 $routes->get('acerca_de', 'Home::acerca_de');
 $routes->get('registrarse', 'Home::registrarse');
 $routes->get('login', 'Home::login');
