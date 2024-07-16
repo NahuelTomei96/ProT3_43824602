@@ -11,6 +11,7 @@ $routes->get('Nosotros', 'Home::Nosotros');
 $routes->get('formacion', 'Home::formacion');
 $routes->get('registrar', 'Home::registrar');
 $routes->get('login', 'Home::login');
+$routes->get('usuarios', 'Home::usuarios');
 
 
 // Rutas del registro de usuarios

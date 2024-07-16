@@ -48,5 +48,17 @@ class Home extends BaseController
         echo view('Backend/usuario/login'); // Carga la vista de inicio de sesión de usuario (login.php en Backend/usuario)
         echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
     }
+
+    public function usuarios()
+    {
+        $data['titulo'] = 'usuarios'; // Título de la página
+        echo view('Frontend/head_view', $data); // Carga la vista del encabezado (head_view.php) con datos
+        echo view('Frontend/navbar_view'); // Carga la vista de la barra de navegación (navbar_view.php)
+        echo view('Backend/usuario/usuarios'); // Carga la vista de inicio de sesión de usuario (login.php en Backend/usuario)
+        echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
+    }
+
+
+
 }
 
