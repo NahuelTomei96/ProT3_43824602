@@ -6,41 +6,47 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('Frontend/head_view');
-        echo view('Frontend/navbar_view');
-        echo view('Frontend/Principal');
-        echo view('Frontend/footer_view');
+        $data['titulo'] = 'pagina_principal'; // Título de la página
+        echo view('Frontend/head_view', $data); // Carga la vista del encabezado (head_view.php) con datos
+        echo view('Frontend/navbar_view'); // Carga la vista de la barra de navegación (navbar_view.php)
+        echo view('Frontend/Principal'); // Carga la vista principal (Principal.php)
+        echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
     }
 
     public function Nosotros()
     {
-        echo view('Frontend/head_view');
-        echo view('Frontend/navbar_view');
-        echo view('Frontend/Nosotros');
-        echo view('Frontend/footer_view');
+        $data['titulo'] = 'Nosotros'; // Título de la página
+        echo view('Frontend/head_view', $data); // Carga la vista del encabezado (head_view.php) con datos
+        echo view('Frontend/navbar_view'); // Carga la vista de la barra de navegación (navbar_view.php)
+        echo view('Frontend/Nosotros'); // Carga la vista de "Nosotros" (Nosotros.php)
+        echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
     }
 
-    public function Acerca_de()
+    public function Formacion()
     {
-        echo view('Frontend/head_view');
-        echo view('Frontend/navbar_view');
-        echo view('Frontend/acerca_de');
-        echo view('Frontend/footer_view');
+        $data['titulo'] = 'formacion'; // Título de la página
+        echo view('Frontend/head_view', $data); // Carga la vista del encabezado (head_view.php) con datos
+        echo view('Frontend/navbar_view'); // Carga la vista de la barra de navegación (navbar_view.php)
+        echo view('Frontend/formacion'); // Carga la vista de "Formación" (formacion.php)
+        echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
     }
 
-    public function Registrarse()
+    public function Registrar()
     {
-        echo view('Frontend/head_view');
-        echo view('Frontend/navbar_view');
-        echo view('Frontend/registrarse');
-        echo view('Frontend/footer_view');
+        $data['titulo'] = 'registrar'; // Título de la página
+        echo view('Frontend/head_view', $data); // Carga la vista del encabezado (head_view.php) con datos
+        echo view('Frontend/navbar_view'); // Carga la vista de la barra de navegación (navbar_view.php)
+        echo view('Backend/usuario/registrar'); // Carga la vista de registro de usuario (registrar.php en Backend/usuario)
+        echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
     }
 
     public function login()
     {
-        echo view('Frontend/head_view');
-        echo view('Frontend/navbar_view');
-        echo view('Frontend/login');
-        echo view('Frontend/footer_view');
+        $data['titulo'] = 'login'; // Título de la página
+        echo view('Frontend/head_view', $data); // Carga la vista del encabezado (head_view.php) con datos
+        echo view('Frontend/navbar_view'); // Carga la vista de la barra de navegación (navbar_view.php)
+        echo view('Backend/usuario/login'); // Carga la vista de inicio de sesión de usuario (login.php en Backend/usuario)
+        echo view('Frontend/footer_view'); // Carga la vista del pie de página (footer_view.php)
     }
 }
+
