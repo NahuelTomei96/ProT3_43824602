@@ -20,7 +20,7 @@ CI_ENVIRONMENT = development;
 # APP
 #--------------------------------------------------------------------
 
-app.baseURL = ''
+app.baseURL = 'http://localhost/Tramo3_43824602/';
 # If you have trouble with `.`, you could also use `_`.
 # app_baseURL = ''
 # app.forceGlobalSecureRequests = false
