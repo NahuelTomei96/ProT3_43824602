@@ -35,6 +35,3 @@
 
     </div>
     <!-- Fin del Grupo de Tarjetas -->
-
-</body>
-<script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>

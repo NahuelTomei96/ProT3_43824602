@@ -59,6 +59,3 @@ $perfil = $session->get('perfil_id');
         </div>
     </div>
 </nav>
-
-<!-- Scripts JS necesarios para Bootstrap -->
-<script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>

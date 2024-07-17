@@ -12,4 +12,3 @@
         <img src="<?php echo base_url('assets/img/Nuevologo.png'); ?>" alt="LogoHeader" class="img-header"> <!-- Imagen del encabezado con ruta dinámica utilizando base_url() -->
     </header>
 </div>
-</html>

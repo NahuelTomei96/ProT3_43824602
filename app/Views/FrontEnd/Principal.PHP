@@ -1,18 +1,4 @@
-<!doctype html> <!-- Declaración del tipo de documento como HTML5 -->
-<html lang="en"> <!-- Etiqueta de apertura de HTML con atributo de idioma -->
-
-<head>
-    <meta charset="utf-8"> <!-- Codificación de caracteres UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configuración del viewport para dispositivos móviles -->
-    <title>Principal</title> <!-- Título del documento -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"> <!-- Enlace al archivo CSS de Bootstrap -->
-    <link href="assets/css/style.css" rel="stylesheet"> <!-- Enlace al archivo CSS personalizado -->
-</head>
-
 <body class="bodyprincipal"> <!-- Cuerpo del documento con clase personalizada -->
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script> <!-- Archivo JavaScript de Bootstrap -->
-
     <!-- Sección de Carrusel -->
     <section>
         <h1 class="text-center">Bienvenidos a mi primer proyecto en CodeIgniter!</h1> <!-- Título centrado -->
@@ -59,5 +45,3 @@
         }
     </style> <!-- Estilos CSS internos para personalizar la apariencia -->
 
-</body>
-</html>

@@ -1,5 +1,3 @@
-<script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
-
 <footer class="footer" style="background-color: #2C3E50; padding: 20px;">
     <div class="footer-icons">
         <!-- Iconos de redes sociales -->
@@ -21,7 +19,11 @@
         <p>2024 Nahuel Tomei. Todos los derechos reservados.</p>
     </div>
 </footer>
-
+    <!-- Todos los scripts  -->
+    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 

@@ -35,14 +35,13 @@ class usuario_Controller extends Controller {
         // Verifica si el email ya está en uso
         if ($formModel->where('email', $email)->first()) {
             session()->setFlashdata('fail', 'El email ya está en uso.'); // Mensaje de error si el email ya está registrado
+            return redirect()->to('registrar');
+            // Redirige al usuario a la página de registro si el email ya está registrado
         } else {
             if (!$input) {
-                // Si la validación falla, muestra el formulario nuevamente con mensajes de error
-                $data['titulo'] = 'registrar';
-                echo view('Frontend/head_view', $data);
-                echo view('Frontend/navbar_view');
-                echo view('Backend/usuario/registrar', ['validation' => $this->validator]); // Pasando la instancia del validador a la vista
-                echo view('Frontend/footer_view');
+                // Si la validación falla, establece el mensaje de error y redirige de vuelta al formulario
+                session()->setFlashdata('fail', 'Error al registrarse. Por favor, revisa los campos e intenta nuevamente.');
+                return redirect()->back()->withInput();
             } else {
                 // Si la validación es exitosa, guarda los datos del usuario en la base de datos
                 $formModel->save([

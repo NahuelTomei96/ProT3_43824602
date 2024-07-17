@@ -1,15 +1,14 @@
-
 <body class="bodyregistrarse">
     <div class="container mt-5 mb-5 d-flex justify-content-center">
         <?php $validation = \Config\Services::validation(); ?>
         <form method="post" action="<?= base_url('enviar-form'); ?>" class="row g-3 needs-validation" novalidate>
             <?= csrf_field(); ?>
-            
+
             <!-- Mensajes de éxito y error -->
-            <?php if (!empty(session()->getFlashdata('fail'))): ?>
+            <?php if (!empty(session()->getFlashdata('fail'))) : ?>
                 <div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
             <?php endif; ?>
-            <?php if (!empty(session()->getFlashdata('success'))): ?>
+            <?php if (!empty(session()->getFlashdata('success'))) : ?>
                 <div class="alert alert-success"><?= session()->getFlashdata('success'); ?></div>
             <?php endif; ?>
 
@@ -56,7 +55,7 @@
                 <div class="invalid-feedback"><?= $validation->getError('pass'); ?></div>
             </div>
 
-         
+
             <!-- Checkbox de aceptar términos -->
             <div class="col-12">
                 <div class="form-check">
@@ -73,8 +72,3 @@
             </div>
         </form>
     </div>
-
-    <!-- Scripts JS necesarios -->
-    <script src="<?= base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
-</body>
-</html>
