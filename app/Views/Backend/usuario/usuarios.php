@@ -34,10 +34,10 @@
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>Juan</td>
-                    <td>Pérez</td>
-                    <td>jperez</td>
-                    <td>jperez@gmail.com</td>
+                    <td>Nahuel</td>
+                    <td>Tomei</td>
+                    <td>nahueltomei</td>
+                    <td>nahueltomei@gmail.com</td>
                     <td>
                         <a href="#" class="btn btn-primary btn-sm">Editar</a>
                         <a href="#" class="btn btn-danger btn-sm">Eliminar</a>
@@ -45,10 +45,10 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>María</td>
-                    <td>Perez</td>
-                    <td>mperez</td>
-                    <td>mperez@gmail.com</td>
+                    <td>nacho</td>
+                    <td>tomei</td>
+                    <td>nachotomei</td>
+                    <td>nacho@gmail.com</td>
                     <td>
                         <a href="#" class="btn btn-primary btn-sm">Editar</a>
                         <a href="#" class="btn btn-danger btn-sm">Eliminar</a>
